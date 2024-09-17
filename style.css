@@ -1,0 +1,96 @@
+.container{
+   background-color: rgb(235, 235, 235);
+   display: flex;
+   text-align: center;
+   justify-content: center; 
+   align-items: center;
+}
+.y1{
+    height:100%;
+    width: 100%;
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#c1{
+  text-align: center;
+  justify-content: center; 
+  align-items: center;
+  border-color: rgb(172, 151, 151);
+  cursor: pointer;
+}
+#c1::after{
+  content:"⭐";
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+#c1:hover{
+  background-color: transparent;
+    text-shadow: 6px 5px 2px  rgb(190, 181, 181);
+    border-color: transparent;
+    transition: 0.3s; 
+}
+#c1:hover::after{
+    background-color: transparent;
+    text-shadow: 6px 5px 2px  rgb(190, 181, 181);
+    border-color: transparent;
+    content:"⭐";
+    opacity: 1;    
+}
+#c2
+{
+  text-align: center;
+  justify-content: center; 
+  align-items: center;  
+  border-color: rgb(172, 151, 151);
+  cursor: pointer;
+  transition: 0.3s; 
+}
+#c2::after{
+  content:"📱";
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+#c2:hover{
+  background-color: transparent;
+    text-shadow: 6px 5px 2px  rgb(190, 181, 181);
+    border-color: transparent;
+    transition: 0.3s; 
+}
+#c2:hover::after{
+    background-color: transparent;
+    text-shadow: 6px 5px 2px  rgb(190, 181, 181);
+    border-color: transparent;
+    content:"📱";
+    opacity: 1;    
+}
+#c3{
+  text-align: center;
+  justify-content: center; 
+  align-items: center;
+  border-color: rgb(172, 151, 151);
+  transition: 0.3s;  
+}
+#c3::after{
+  content:"💬";
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+#c3:hover{
+  background-color: transparent;
+    text-shadow: 6px 5px 2px  rgb(190, 181, 181);
+    border-color: transparent;
+    transition: 0.3s; 
+}
+#c3:hover::after{
+    background-color: transparent;
+    text-shadow: 6px 5px 2px  rgb(190, 181, 181);
+    border-color: transparent;
+    content:"💬";
+    opacity: 1;    
+}
